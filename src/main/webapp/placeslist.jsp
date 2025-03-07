@@ -74,6 +74,12 @@
 				</td>
 			</tr>
 		</table>
+		<div style="text-align: center; margin-top: 20px;">
+		<form action="adminhome.jsp" method="GET">
+			<input type="submit" value="Back to Admin Home"
+				style="padding: 10px 20px; font-size: 16px; background-color: #2095bf; color: white; border: none; cursor: pointer;">
+		</form>
+	</div>
 	<%
 		String action = request.getParameter("action");
 		if (action != null && action.equals("delete")) {

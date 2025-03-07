@@ -20,7 +20,7 @@ public class AdminVerificationController extends HttpServlet {
 			response.sendRedirect("adminregister.jsp");
 		}
 		else
-			response.sendRedirect("invalidcode.jsp");
+			response.sendRedirect("admininvalidcode.jsp");
 	}
 
 }
