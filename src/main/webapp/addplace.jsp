@@ -37,7 +37,7 @@ input[type="text"] {
 <title>Add Place</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 	
 	<form action="placecontroller" method="post" style="width: 400px; margin: 0px auto;">
 		<fieldset>

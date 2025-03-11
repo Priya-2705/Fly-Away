@@ -64,7 +64,7 @@ a:hover {
 				<ul class="nav">
 					<li><a href="userlogin.jsp">Home</a></li>
 					<li><a href="about.jsp">About</a></li>
-		<!-- <li><a href="logout.jsp">Logout</a></li> -->			
+					<li><a href="logout.jsp">Logout</a></li>		
 				</ul>
 			</nav>
 		</header>

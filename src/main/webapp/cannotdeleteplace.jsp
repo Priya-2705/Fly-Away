@@ -14,7 +14,7 @@ h2 {
 <title>Place cannot be deleted</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 	
 	<h2>Cannot delete the place as there are associated flights!! <br><br>
 	<a href="placeslist.jsp">Click here</a> to return to Places List page.</h2>

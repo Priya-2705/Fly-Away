@@ -37,7 +37,7 @@ select {
 <title>SmoothPay Payment Gateway</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 	
 	<form action="paymentcontroller" method="post" style="width: 450px; margin: 0px auto;">
         <fieldset>

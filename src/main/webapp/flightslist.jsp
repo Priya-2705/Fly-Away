@@ -37,7 +37,7 @@ th {
 <title>Flights List</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 	<%
 	FlightDao flightDao = new FlightDaoImpl();
 	List<Flight> flights = flightDao.getAll();

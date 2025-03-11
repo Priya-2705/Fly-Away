@@ -32,7 +32,7 @@ label {
 <title>Flight Details</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 
 	<div class="heading">
 		<h2>Flight Details</h2>

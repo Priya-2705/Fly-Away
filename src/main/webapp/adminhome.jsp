@@ -7,8 +7,8 @@
 <title>Admin Home</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
-
+	<%@ include file="logoutheader.jsp"%>
+	
 	<div class="heading">
 		<h2>Welcome to Fly Away</h2>
 	</div>

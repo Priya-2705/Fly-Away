@@ -37,7 +37,7 @@ input[type="text"] {
 <title>Add an Airline</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 	
 	<form action="airlinecontroller" method="post" style="width: 400px; margin: 0px auto;">
 		<fieldset>

@@ -12,7 +12,7 @@
 <title>User Home</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 
 	<% 
 		PlaceDao placeDao = new PlaceDaoImpl();

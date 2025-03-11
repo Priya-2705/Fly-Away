@@ -52,7 +52,7 @@ select option[disabled], input[type="datetime-local"] {
 <title>Add a Flight</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 
 	<% 
 		AirlineDao airlineDao = new AirlineDaoImpl();

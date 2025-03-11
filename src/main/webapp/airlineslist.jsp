@@ -33,7 +33,7 @@
 <title>Airlines List</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 	<%	
 		AirlineDao airlineDao = new AirlineDaoImpl();
 		List<Airline> airlines = airlineDao.getAll(); 

@@ -27,12 +27,13 @@
 <body>
     <%@ include file="header.jsp"%>
     
-    <h1> About Developer </h1>
+    <h1> About us</h1>
     
     <div class="details-container">
         <div class="details">
             <p>
-                Name : Tejeswi Devi Priya<br><br>
+                Name : Team Innovis<br><br>
+                
                 Email ID : priyapillarisetty19@gmail.com
             </p>            
             <p>

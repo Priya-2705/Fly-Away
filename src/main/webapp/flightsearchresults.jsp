@@ -35,7 +35,7 @@ th {
 <title>Flight Search Results</title>
 </head>
 <body>
-	<%@ include file="header.jsp"%>
+	<%@ include file="logoutheader.jsp"%>
 
 	<div class="heading">
 		<h2>Flight Search Results</h2>
@@ -84,5 +84,11 @@ th {
 		}
 		%>
 	</table>
+	<div style="text-align: center; margin-top: 20px;">
+		<form action="userhome.jsp" method="GET">
+			<input type="submit" value="Back to User Home"
+				style="padding: 10px 20px; font-size: 16px; background-color: #2095bf; color: white; border: none; cursor: pointer;">
+		</form>
+	</div>
 </body>
 </html>
